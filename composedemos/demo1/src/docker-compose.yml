@@ -1,0 +1,8 @@
+services:
+  webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: demo01
+    ports:
+      - "8181:80"
